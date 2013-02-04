@@ -1,0 +1,544 @@
+{
+  "qotd": [
+    {
+      "quote": "Those who mind don't matter, and those who matter don't mind.",
+      "author": "Bernard M. Baruch"
+    },
+    {
+      "quote": "A room without books is like a body without a soul.",
+      "author": "Marcus Tullius Cicero"
+    },
+    {
+      "quote": "If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+      "author": "Maya Angelou"
+    },
+    {
+      "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "quote": "A woman is like a tea bag; you never know how strong it is until it's in hot water.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "quote": "Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.",
+      "author": "Marilyn Monroe"
+    },
+    {
+      "quote": "If you don't stand for something you will fall for anything.",
+      "author": "Malcolm X"
+    },
+    {
+      "quote": "Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present.",
+      "author": "Bil Keane"
+    },
+    {
+      "quote": "The man who does not read has no advantage over the man who cannot read.",
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "We are all in the gutter, but some of us are looking at the stars.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "quote": "That which does not kill us makes us stronger.",
+      "author": "Friedrich Nietzsche"
+    },
+    {
+      "quote": "Love all, trust a few, do wrong to none.",
+      "author": "William Shakespeare"
+    },
+    {
+      "quote": "We don't see things as they are, we see them as we are.",
+      "author": "Anaïs Nin"
+    },
+    {
+      "quote": "If you can't explain it to a six year old, you don't understand it yourself.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "Fairy tales are more than true; not because they tell us that dragons exist, but because they tell us that dragons can be beaten.",
+      "author": "G.K. Chesterton"
+    },
+    {
+      "quote": "We read to know that we are not alone.",
+      "author": "William Nicholson"
+    },
+    {
+      "quote": "Logic will get you from A to Z; imagination will get you everywhere.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "quote": "If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "Time you enjoy wasting is not wasted time.",
+      "author": "Marthe Troly-Curtin"
+    },
+    {
+      "quote": "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "Never trust anyone who has not brought a book with them.",
+      "author": "Lemony Snicket"
+    },
+    {
+      "quote": "A day without laughter is a day wasted.",
+      "author": "Nicolas Chamfort"
+    },
+    {
+      "quote": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
+      "author": "Dr. Seuss"
+    },
+    {
+      "quote": "Choose a job you love, and you will never have to work a day in your life.",
+      "author": "Confucius"
+    },
+    {
+      "quote": "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.",
+      "author": "Bob Marley"
+    },
+    {
+      "quote": "To the well-organized mind, death is but the next great adventure.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "It takes courage to grow up and become who you really are.",
+      "author": "E.E. Cummings"
+    },
+    {
+      "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchill"
+    },
+    {
+      "quote": "Be not afraid of greatness. Some are born great, some achieve greatness, and others have greatness thrust upon them.",
+      "author": "William Shakespeare"
+    },
+    {
+      "quote": "A lie can travel half way around the world while the truth is putting on its shoes.",
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "It's better to be unhappy alone than unhappy with someone.",
+      "author": "Marilyn Monroe"
+    },
+    {
+      "quote": "Life is an awful, ugly place to not have a best friend.",
+      "author": "Sarah Dessen"
+    },
+    {
+      "quote": "I don't know the key to success, but the key to failure is trying to please everyone.",
+      "author": "Bill Cosby"
+    },
+    {
+      "quote": "The pure and simple truth is rarely pure and never simple.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "quote": "Knowing yourself is the beginning of all wisdom.",
+      "author": "Aristotle"
+    },
+    {
+      "quote": "It matters not what someone is born, but what they grow to be.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "The truth will set you free, but first it will piss you off.",
+      "author": "Gloria Steinem"
+    },
+    {
+      "quote": "Some day you will be old enough to start reading fairy tales again.",
+      "author": "C.S. Lewis"
+    },
+    {
+      "quote": "Memories warm you up from the inside. But they also tear you apart.",
+      "author": "Haruki Murakami"
+    },
+    {
+      "quote": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "quote": "Coincidence is God's way of remaining anonymous.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "We should all start to live before we get too old. Fear is stupid. So are regrets.",
+      "author": "Marilyn Monroe"
+    },
+    {
+      "quote": "Don't think or judge, just listen.",
+      "author": "Sarah Dessen"
+    },
+    {
+      "quote": "It is sometimes an appropriate response to reality to go insane.",
+      "author": "Philip K. Dick"
+    },
+    {
+      "quote": "Be kind, for everyone you meet is fighting a harder battle.",
+      "author": "Plato"
+    },
+    {
+      "quote": "A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.",
+      "author": "Winston Churchill"
+    },
+    {
+      "quote": "When someone loves you, the way they say your name is different. You know that your name is safe in their mouth.",
+      "author": "Jess C. Scott"
+    },
+    {
+      "quote": "Whether you think you can, or you think you can't, you're right.",
+      "author": "Henry Ford"
+    },
+    {
+      "quote": "Fate is like a strange, unpopular restaurant filled with odd little waiters who bring you things you never asked for and don't always like.",
+      "author": "Lemony Snicket"
+    },
+    {
+      "quote": "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
+      "author": "Isaac Asimov"
+    },
+    {
+      "quote": "Happiness in intelligent people is the rarest thing I know.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "quote": "Faith is taking the first step even when you can't see the whole staircase.",
+      "author": "Martin Luther King Jr."
+    },
+    {
+      "quote": "A clever person solves a problem. A wise person avoids it.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "Those who don't believe in magic will never find it.",
+      "author": "Roald Dahl"
+    },
+    {
+      "quote": "Don’t go around saying the world owes you a living. The world owes you nothing. It was here first.",
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+      "author": "Albert Camus"
+    },
+    {
+      "quote": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+      "author": "Leo Tolstoy"
+    },
+    {
+      "quote": "That's the thing about pain... it demands to be felt.",
+      "author": "John Green"
+    },
+    {
+      "quote": "Women are meant to be loved, not to be understood.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "quote": "If you're looking for sympathy you'll find it between shit and syphilis in the dictionary.",
+      "author": "David Sedaris"
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    }
+  ]
+}
