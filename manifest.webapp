@@ -1,0 +1,13 @@
+{
+  "name": "101 Quotes",
+  "description": "Provides you with 100 fixed quotes, and a separate quote of the day.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/message.png"
+  },
+  "developer": {
+    "name": "Green Square",
+    "url": "http://apps.greensqr.com"
+  },
+  "default_locale": "en"
+}
