@@ -3,7 +3,7 @@
   "description": "Provides you with 100 fixed quotes, and a separate quote of the day.",
   "launch_path": "/index.html",
   "icons": {
-    "128": "/img/message.png"
+    "128": "/icon.png"
   },
   "developer": {
     "name": "Green Square",
