@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>[1][2][0]01 Quotes [Free]</title>
+    <title>101 Quotes Free</title>
     <link rel="stylesheet" type="text/css" href="shared/style/headers.css">
     <link rel="stylesheet" type="text/css" href="shared/style_unstable/drawer.css">
+    <link rel="stylesheet" type="text/css" href="shared/style/confirm.css">
 
     <link rel="stylesheet" type="text/css" href="style/app.css">
     <script type="text/javascript" src="js/app.js"></script>
@@ -14,24 +15,18 @@
   <section data-type="sidebar">
     <nav>
       <h2>Categories</h2>
-      <ul>
-        <li><a href="#">Quote of the Day</a></li>
-        <li><a href="#">Art</a></li>
-        <li><a href="#">Humour</a></li>
-        <li><a href="#">Inspiration</a></li>
-        <li><a href="#">Life</a></li>
-        <li><a href="#">Love</a></li>
-        <li><a href="#">Miscellaneous</a></li>
-        <li><a href="#">People</a></li>
-        <li><a href="#">War</a></li>
-        <li><a href="#">Wisdom</a></li>
-        <li><a href="#">Work</a></li>
-      </ul>
-      <h2>Others</h2>
-      <ul>
-        <li><a href="#">Options</a></li>
-        <li><a href="#">Donate</a></li>
-        <li><a href="#">Contact Us</a></li>
+      <ul id="quotes-menu">
+        <li id="qotd"><a href="#">Quote of the Day</a></li>
+        <li id="art"><a href="#">Art</a></li>
+        <li id="humour"><a href="#">Humour</a></li>
+        <li id="inspiration"><a href="#">Inspiration</a></li>
+        <li id="life"><a href="#">Life</a></li>
+        <li id="love"><a href="#">Love</a></li>
+        <li id="misc"><a href="#">Miscellaneous</a></li>
+        <li id="people"><a href="#">People</a></li>
+        <li id="war"><a href="#">War</a></li>
+        <li id="wisdom"><a href="#">Wisdom</a></li>
+        <li id="work"><a href="#">Work</a></li>
       </ul>
     </nav>
   </section>
@@ -40,30 +35,21 @@
     <header>
       <a href="#"><span class="icon icon-menu">hide sidebar</span></a>
       <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
-      <h1>Quote Of The Day</h1>
+      <h1 id="title">Quote Of The Day</h1>
     </header>
-    <div role="main">
-      <div class="quote">
-        <div class="quote-title-bar">
-          <h2>Oscar Wilde</h2>
-          <p class="share-button">
-            <a href="#"><img src="img/share.png" alt="share"></a>
-          </p>
-        </div>
-        <div class="clear"></div>
-        <div class="quote-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu velit risus, id mattis dui. Etiam tristique diam et urna.</p>
-        </div>
-        <div class="quote-share">
-          <p>
-            <a href="#"><img src="img/copy.png" alt="copy"></a>
-            <a href="#"><img src="img/facebook.png" alt="facebook"></a>
-            <a href="#"><img src="img/twitter.png" alt="twitter"></a>
-            <a href="#"><img src="img/message.png" alt="message"></a>
-          </p>
-        </div>
-      </div>
+    <div role="main" id="main">
     </div>
+
+    <form role="dialog" data-type="confirm" id="confirm-dialog">
+      <section>
+        <h1>101 Quotes</h1>
+        <p>Copy to clipboard is not yet implemented in this version of Firefox OS</p>
+      </section>
+      <menu>
+        <button type="button" id="ok-button">OK</button>
+      </menu>
+    </form>
+
   </section>
   </body>
 </html>
