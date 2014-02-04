@@ -119,7 +119,7 @@ function createQuote (aQuote) {
         shareListHref.target = "_blank";
         break;
       case "facebook":
-        shareListHref.href = "http://www.facebook.com/sharer.php?s=100&" + 
+        shareListHref.href = "http://www.facebook.com/sharer.php?m2w&s=100&" +
           "p[url]=http://apps.greensqr.com/quotes/?quote=" + aQuote.quote + "*author=" + aQuote.author + "*title=" + getTitle() +
           "&p[title]=" + aQuote.author + 
           "&p[summary]=" + aQuote.quote;
