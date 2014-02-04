@@ -48,6 +48,7 @@ function clearMain () {
   while (main.hasChildNodes()) {
     main.removeChild(main.lastChild);
   }
+  window.scrollTo(0, 0);
 }
 
 function toggle(aElement) {
