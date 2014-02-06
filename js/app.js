@@ -172,6 +172,46 @@ function populateQOTD () {
   var today = new Date(now.getFullYear(), 0 ,1);
   today = Math.ceil((now - today) / 86400000);
   createQuote(qotd.qotd[today - 1]);
+  createPlatformButton();
+  createRandomButton();
+}
+
+function createPlatformButton () {
+  var main = document.getElementById("main");
+
+  var moreAppsButton = document.createElement("button");
+  moreAppsButton.type = "button";
+  moreAppsButton.classList.add("recommend");
+  moreAppsButton.id = "more-apps";
+  moreAppsButton.textContent = "More Apps";
+  main.appendChild(moreAppsButton);
+}
+
+function createRandomButton () {
+  var main = document.getElementById("main");
+
+  var randomButton = document.createElement("button");
+  randomButton.type = "button";
+  randomButton.classList.add("recommend");
+  randomButton.id = "random-quote";
+  randomButton.textContent = "Random Quote";
+  randomButton.addEventListener("click", createRandomQuote);
+  main.appendChild(randomButton);
+}
+
+function createRandomQuote (aEvent) {
+  var main = document.getElementById("main");
+  var categories = ["art", "humour", "inspiration", "life", "love", "misc", "people", "war", "wisdom", "work"];
+
+  if (main.lastChild.id !== "random-quote") {
+    main.removeChild(main.lastChild);
+  }
+
+  createQuote(quotes[categories[random(10)]][random(10)]);
+}
+
+function random (aNumber) {
+  return Math.floor(Math.random() * aNumber);
 }
 
 function populateQuotes (aEvent) {
