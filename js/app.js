@@ -184,6 +184,7 @@ function createPlatformButton () {
   moreAppsButton.classList.add("recommend");
   moreAppsButton.id = "more-apps";
   moreAppsButton.textContent = "More Apps";
+  moreAppsButton.addEventListener("click", listMoreApps);
   main.appendChild(moreAppsButton);
 }
 
@@ -197,6 +198,33 @@ function createRandomButton () {
   randomButton.textContent = "Random Quote";
   randomButton.addEventListener("click", createRandomQuote);
   main.appendChild(randomButton);
+}
+
+function listMoreApps () {
+  var apps = [{
+    name: "FireFart",
+    link: "https://marketplace.firefox.com/app/firefart/"
+  }];
+  var domApps = document.querySelectorAll(".apps");
+  var main = document.getElementById("main");
+  var domAppsLength = domApps.length;
+  if (domAppsLength === 0) {
+    var moreAppsButton = document.getElementById("more-apps");
+    for (i in apps) {
+      var anApp = document.createElement("a");
+      anApp.setAttribute("role", "button");
+      anApp.classList.add("apps");
+      anApp.id = apps[i].name.toLowerCase();
+      anApp.target = "_blank";
+      anApp.href = apps[i].link;
+      anApp.textContent = apps[i].name;
+      moreAppsButton.parentNode.insertBefore(anApp, moreAppsButton.nextSibling);
+    }
+  } else {
+    for (var i = domAppsLength - 1; i >= 0; i--) {
+      main.removeChild(domApps[i]);
+    };
+  }
 }
 
 function createRandomQuote (aEvent) {

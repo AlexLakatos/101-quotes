@@ -105,7 +105,12 @@ form[role="dialog"] {
 }
 
 #random-quote,
-#more-apps {
-  margin: 1rem 1rem 1rem 2.6rem;
-  width: calc(100% - 3.6rem);
+#more-apps,
+.apps {
+  margin: 1rem 1rem 1rem 2.6rem !important;
+  width: calc(100% - 3.6rem) !important;
+}
+
+* {
+  outline: none;
 }
