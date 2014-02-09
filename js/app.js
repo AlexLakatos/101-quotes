@@ -62,9 +62,59 @@ function toggleShare(aEvent) {
   toggle(shareBar);
 }
 
-function toggleDialog(aEvent) {
-  var confirmDialog = document.getElementById("confirm-dialog");
-  toggle(confirmDialog);
+function shareQuoteImage(aEvent) {
+  var imageQuote = createImageQuote(this);
+  imageQuote.id = "hidden-quote";
+  var main = document.getElementById("main")
+  var hiddenQuote = main.appendChild(imageQuote);
+
+  html2canvas(hiddenQuote, {
+    onrendered: function renderedCanvas (aCanvas) {
+      var main = document.getElementById("main");
+      var hiddenQuote = document.getElementById("hidden-quote");
+      main.removeChild(hiddenQuote);
+
+      aCanvas.toBlob(function shareBlob (aBlob) {
+        var sharingImage = new MozActivity({
+          name: "share",
+          data: {
+            type: "image/*",
+            number: 1,
+            blobs: [aBlob]
+          }
+        });
+      });
+    }
+  });
+}
+
+function createImageQuote (aQuote) {
+  var quoteDiv = document.createElement("div");
+  quoteDiv.classList.add("quote");
+
+  var quoteTitleBar = document.createElement("div");
+  quoteTitleBar.classList.add("quote-title-bar");
+
+  var title = document.createElement("h2");
+  title.textContent = aQuote.author;
+  title.style.color = "#008AAA";
+
+  var resetDiv = document.createElement("div");
+  resetDiv.classList.add("clear");
+
+  var quoteBody = document.createElement("div");
+  quoteBody.classList.add("quote-body");
+  var quoteParagraph = document.createElement("p");
+  quoteParagraph.textContent = aQuote.quote;
+  quoteParagraph.style.color = "#008AAA";
+  quoteBody.appendChild(quoteParagraph);
+
+  quoteTitleBar.appendChild(title);
+  quoteDiv.appendChild(quoteTitleBar);
+  quoteDiv.appendChild(resetDiv);
+  quoteDiv.appendChild(quoteBody);
+
+  return quoteDiv;
 }
 
 function createQuote (aQuote) {
@@ -126,7 +176,7 @@ function createQuote (aQuote) {
         shareListHref.target = "_blank";
         break;
       case "copy":
-        shareListHref.addEventListener("click", toggleDialog);
+        shareListHref.addEventListener("click", shareQuoteImage.bind(aQuote));
         break;
     }
     shareListHref.appendChild(shareListImage);
@@ -267,8 +317,5 @@ function init() {
   for (var i = quotesMenu.children.length - 1; i >= 0; i--) {
     quotesMenu.children[i].addEventListener("click", populateQuotes);
   };
-
-  var okButton = document.getElementById("ok-button");
-  okButton.addEventListener("click", toggleDialog);
 }
 window.addEventListener("load", init);
