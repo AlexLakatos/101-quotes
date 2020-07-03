@@ -1,3 +1,4 @@
+> Firefox OS is dead now. App still works but you'll need a Firefox OS phone.
 101-quotes
 ==========
 
